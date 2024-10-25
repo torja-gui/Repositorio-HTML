@@ -1,0 +1,27 @@
+
+/*Selector universal para aplicar estilo a todo los elementos*/
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+/*Aplica un estilo miinimo al cuerpo del documento*/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul, ol {
+    list-style: none;
+}
+/**/
+h1, h2, h3, h4, h5 ,h6, p{
+    margin: 0;
+    padding: 0;
+}
+
+/**/
+a{
+    text-decoration: none;
+    color:inherit;
+}
